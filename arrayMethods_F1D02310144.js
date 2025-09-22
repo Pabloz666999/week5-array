@@ -97,3 +97,4 @@ console.log("\n5. some(), Mengecek apakah ada nama yang lebih dari 9 karakter : 
 // 6. every()
 const namaEvery = heroes.every(hero => hero.nama.length > 6);
 console.log("\n6. every(), Mengecek apakah semua nama memiliki panjang lebih dari 6 karakter : ", namaEvery);
+
