@@ -100,3 +100,4 @@ console.log("\n6. every(), Mengecek apakah semua nama memiliki panjang lebih dar
 
 
 
+
