@@ -72,7 +72,7 @@ console.log("\n6. every(), Mengecek apakah semua nama memiliki panjang lebih dar
 ### Screenshot Hasil Program
 <img width="641" height="487" alt="image" src="https://github.com/user-attachments/assets/c9471147-765f-4834-9652-0ada4ecf6ad4" />
 
-Kesimpulan
+### Kesimpulan
 
 Program dengan nama file arrayMethods_F1D02310144.js berhasil mendemonstrasikan penggunaan enam metode penting pada array di JavaScript, yaitu map, filter, reduce, find, some, dan every.
 
