@@ -8,12 +8,13 @@
 - Membuat data array buatan sendiri minimal 10 element, misalkan saya membuat data kultivator, seperti berikut :
 
 ``` javascript 
-	{
-	nama: "Bayu Kopling",
-    gender: "M",
-    kultivasi: "Ancient God",
-    umur: 3000,
-    },
+  {
+    nama: "Ling",
+    role: "Assassin",
+    gender: "M",
+    power: "Dragon's Descent",
+    umur: 21,
+  },
 ```
 - Menerapkan ke-enam metode array *(map, filter, reduce, find, some, every)*
 
