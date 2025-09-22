@@ -1,20 +1,32 @@
-### **Nama : M. Bayu Aji**
+# **Tugas Pemrograman Web Lanjut – Array Methods**
 
-### **NIM : F1D02310144**
+### **Identitas**
+- **Nama**  : M. Bayu Aji  
+- **NIM**   : F1D02310144  
+- **Kelas** : B  
 
-### **Kelas : B**
+---
 
-- Membuat file javaScript dengan nama "*arrayMethods_F1D02310144.js*"
-- Membuat data array buatan sendiri minimal 10 element, misalkan saya membuat data kultivator, seperti berikut :
+## **Deskripsi Tugas**
+Tugas ini dibuat untuk mengimplementasikan enam metode array bawaan JavaScript, yaitu:  
 
-``` javascript 
-  {
-    nama: "Ling",
-    role: "Assassin",
-    gender: "M",
-    power: "Dragon's Descent",
-    umur: 21,
-  },
+- `map()`  
+- `filter()`  
+- `reduce()`  
+- `find()`  
+- `some()`  
+- `every()`  
+
+Langkah awal adalah membuat sebuah array berisi minimal **10 data objek buatan sendiri** yang mewakili karakter dengan beberapa properti:  
+
+```javascript
+{
+  nama: "Ling",
+  role: "Assassin",
+  gender: "M",
+  power: "Dragon's Descent",
+  umur: 21,
+}
 ```
 - Menerapkan ke-enam metode array *(map, filter, reduce, find, some, every)*
 
@@ -59,4 +71,22 @@ console.log("\n6. every(), Mengecek apakah semua nama memiliki panjang lebih dar
 
 ### Screenshot Hasil Program
 <img width="641" height="487" alt="image" src="https://github.com/user-attachments/assets/c9471147-765f-4834-9652-0ada4ecf6ad4" />
+
+Kesimpulan
+
+Program dengan nama file arrayMethods_F1D02310144.js berhasil mendemonstrasikan penggunaan enam metode penting pada array di JavaScript, yaitu map, filter, reduce, find, some, dan every.
+
+map() → Berhasil mengubah semua nama karakter menjadi huruf besar (uppercase).
+
+filter() → Dapat menyaring nama dengan panjang lebih dari 5 huruf dan menampilkannya saja.
+
+reduce() → Berhasil digunakan untuk menghitung total jumlah karakter pada semua nama serta total umur dari seluruh karakter.
+
+find() → Mampu menemukan karakter dengan nama yang mengandung kata tertentu (contoh: "Ling").
+
+some() → Berfungsi untuk memeriksa apakah ada minimal satu karakter dengan panjang nama lebih dari 9 huruf.
+
+every() → Digunakan untuk mengecek apakah semua karakter memiliki panjang nama lebih dari 6 huruf.
+
+Dari hasil percobaan ini, dapat disimpulkan bahwa setiap metode array memiliki fungsi yang berbeda namun saling melengkapi dalam pengolahan data. Dengan memahami dan menggunakan metode-metode ini, pengolahan data array menjadi lebih efektif, ringkas, dan mudah dibaca.
 
